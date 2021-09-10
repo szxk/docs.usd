@@ -1,9 +1,9 @@
----
+﻿---
 layout: default
 title: USD介绍
 nav_order: 1
 description: ""
-permalink: /
+permalink: /docs/introduction-to-usd
 ---
 
 # USD介绍
