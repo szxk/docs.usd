@@ -23,6 +23,9 @@ USD提供了最基本的元素资产（像是模型）或者动画的数据交�
 
 ## 为什么使用USD?
 ---
+USD是皮克斯3D图形管线的核心，被使用在每个3D制作和渲染应用程序中，包括皮克斯专有的Presto动画系统。
+皮克斯致力于发展和改进USD以满足下列生产需求：
+- **为定义、打包、组合与编辑3D数据提供丰富且通用的语言，便于在多种数字内容制作软件中使用。**和许多其它形式的数据包一样，USD提供了底层数据模型，在“数据格式层级”上规定了数据的编码与组织形式，外加一组（可扩展）高级架构，为[Mesh](https://graphics.pixar.com/usd/docs/api/class_usd_geom_mesh.html#details)和[Transform](https://graphics.pixar.com/usd/docs/api/class_usd_geom_xformable.html#details)等概念提供了合理高效的API和组织形式。有了这样的基础就可以创建几何与着色缓存。但是USD进一步提供了一组叫“[合成弧](https://graphics.pixar.com/usd/docs/USD-Glossary.html#USDGlossary-CompositionArcs)”的工具，用于打包、聚合、生成变体与覆盖Primitive元素和资产，配合高性能的运行时引擎生成称为“[舞台（Stage）](https://graphics.pixar.com/usd/docs/USD-Glossary.html#USDGlossary-Composition)”的场景图表，进而解析“[合成的场景描述](https://graphics.pixar.com/usd/docs/USD-Glossary.html#USDGlossary-Composition)”的结果并从中提取数据。
 
 ## USD能做什么?
 ---
